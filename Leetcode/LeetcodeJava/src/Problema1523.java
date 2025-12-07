@@ -1,4 +1,4 @@
-class Solution {
+class Problema1523 {
     public static int countOdds(int low, int high) {
         int oddNumbers = 0;
         if (low >= 0 && high >= low && high <= Math.pow(10, 9)) {
