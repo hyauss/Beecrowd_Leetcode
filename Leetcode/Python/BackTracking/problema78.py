@@ -6,4 +6,4 @@ class Solution:
                 backtrack(i +1,path +[nums[i]])
         result = []
         backtrack(0,[])
-        return result 
+        return result
